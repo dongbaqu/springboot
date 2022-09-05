@@ -1,0 +1,23 @@
+name: jack
+
+user:
+  name: mark
+
+users:
+  - name: one
+    age: 14
+  - name: two
+    age: 15
+
+userList: [{name:jack,age:18},{name:jack,age:16}]
+
+datasource:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/ssm_db?serverTimeZone=CMT
+  username: root
+  password: 123456
+server:
+  port: 8080
+  servlet:
+    context-path: /test123
+
